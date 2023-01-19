@@ -6,6 +6,7 @@ import NotFound from './components/pages/NotFound/NotFound';
 import Header from './components/views/Header/Header';
 import Footer from './components/views/Footer/Footer';
 
+
 const App = () => {
   return (
     <main>
