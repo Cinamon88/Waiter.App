@@ -7,11 +7,12 @@ const TableCard = (props) => {
         <Container className="m-5">
             <Row>
                 <Col><b style={{ fontSize: "28px" }}>Table {props.id}</b></Col>
-                <Col xs={8} style={{ marginTop: "10px" }}><b>Status:</b> {props.status}</Col>
-                    
-                <Col xs={2}><Link key={props.id} to={"" + props.id}>
-                    <Button variant="primary">Show more</Button>
-                </Link></Col>
+                <Col xs={8} style={{ marginTop: "10px" }}><b>Status:</b> {props.status}</Col>  
+                <Col xs={2}>
+                    <Link key={props.id} to={"table/" + props.id}>
+                        <Button variant="primary">Show more</Button>
+                    </Link>
+                </Col>
             </Row>    
         </Container>        
             
