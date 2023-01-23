@@ -1,5 +1,5 @@
 # Published on Repl
-https://replit.com/@Cinamon88/WaiterApp#server.mjs
+https://waiterapp.cinamon88.repl.co/
 
 # Getting Started with Create React App
 
