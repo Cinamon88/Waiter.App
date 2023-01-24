@@ -16,7 +16,7 @@ export const editTable = payload => ({ type: EDIT_TABLE, payload});
 
 export const fetchTables = () => {
     return (dispatch) => {
-      fetch(API_URL + '/tables')
+      fetch(API_URL + 'app/tables')
         .then(res => res.json())
         .then(tables => dispatch(updateTable(tables)));
     }
