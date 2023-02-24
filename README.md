@@ -1,3 +1,14 @@
+# React Waiter App
+
+# Technologies
+- HTML
+- JavaScript
+- React.js
+- React Router
+- Redux
+- yarn
+- API
+
 # Published on Repl
 https://waiterapp.cinamon88.repl.co/
 
